@@ -21,7 +21,8 @@ tools
 -console.log per far visualizzare il messaggio del numero contato o di fizz buzz
 */
 
-//inizializzazione, senza assegnazione della variabile
+//inizializzazione, senza assegnazione della variabile, 
+//variabile che potrei anche rendere di tipo blocco inserendola come prima riga nel ciclo
 let FizzOrBuzzOrN;
 
 //inizio ciclo for, da 1 a 100 compreso(<=)
