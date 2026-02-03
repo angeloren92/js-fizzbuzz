@@ -21,7 +21,11 @@ tools
 -console.log per far visualizzare il messaggio del numero contato o di fizz buzz
 */
 
+let FizzOrBuzz;
 
+for (let i = 1; i <= 100; i++) {
+    
+}
 
 
 
