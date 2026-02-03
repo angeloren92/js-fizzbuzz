@@ -21,10 +21,19 @@ tools
 -console.log per far visualizzare il messaggio del numero contato o di fizz buzz
 */
 
-let FizzOrBuzz;
+let FizzOrBuzzOrN;
 
 for (let i = 1; i <= 100; i++) {
-    
+    if (i % 3 === 0 && i % 5 === 0) {
+        FizzOrBuzzOrN = 'FizzBuzz';
+    } else if (i % 3 === 0) {
+        FizzOrBuzzOrN = 'Fizz';
+    } else if (i % 5 === 0) {
+        FizzOrBuzzOrN = 'Buzz';
+    } else {
+        FizzOrBuzzOrN = i;
+    }
+    console.log(FizzOrBuzzOrN)
 }
 
 
